@@ -1,7 +1,7 @@
  🎵 Spotify Listening History Analysis
 
 Analyze your Spotify data to reveal your most played songs, artists, platforms, time trends, and more.  
-Basically what Wrapped doesn’t show you 😎
+Basically what the real Wrapped doesn’t show you 
 
 ---
 
@@ -73,17 +73,7 @@ New artists discovered: Tyla, Amaarae, Larry June
 
 Most loyal artist: Jorja Smith (streamed every year)
 
-⚙️ How to Use This
-<pre> ```bash git clone https://github.com/elvert19/spoti_stats.git cd spoti_stats/spotify_cleaning ``` </pre>
 
-
-jupyter nbconvert --to script analysis.ipynb
-# 📦 Requirements
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
 
 💡 Ideas for Customization
 Add an upload_your_zip.py script for easier uploads
@@ -96,15 +86,13 @@ Export top artists/tracks into a summary.csv
 
 Build a "Wrapped-style" summary for quick insights
 
-🤝 Contributions Welcome
+🤝 Contributions  are deffo Welcome
 Feel free to tweak this repo, improve the analysis, or add your own ideas!
-Highly recommended if you enjoy data storytelling through your Spotify history.
+Highly recommended if you enjoy data insights through your Spotify history.
 
 🔐 Note
 If you're using your own Spotify data, download it from the official Spotify Privacy Portal.
-It may take a few days, but it's worth it for deeper insights!
+It will take like a day oe 2 max , but it's worth it you prefer to have a personalized stats
 
-yaml
-Copy
-Edit
+
 
