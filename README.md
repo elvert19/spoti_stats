@@ -1,10 +1,13 @@
-🎵 Spotify Listening History Analysis
-Analyze your Spotify data to reveal your most played songs, artists, platforms, time trends, and more. Basically what Wrapped doesn’t show you lol!
+ Spotify Listening History Analysis
 
-📂 Project Structure
-bash
-Copy
-Edit
+Analyze your Spotify data to reveal your most played songs, artists, platforms, time trends, and more.  
+Basically what Wrapped doesn’t show you like the super nerd stuff
+
+---
+
+## 📂 Project Structure
+
+```bash
 spotify_cleaning/
 ├── analysis.ipynb         # Main notebook for analysis
 ├── analysis.py            # Script version of the notebook
@@ -15,7 +18,8 @@ spotify_cleaning/
 │   └── ...
 └── output/
     └── cleaned_spotify_streaming_data.csv
-🔍 What the Code Does
+
+What the Code Does
 Loads and cleans your Spotify streaming history (.json)
 
 Combines audio & video data
@@ -38,7 +42,7 @@ Calculates:
 
  Audio vs Video breakdown
 
- Platform usage (Windows/iOS/Smart TV etc.)
+ Platform usage (Windows, iOS, Smart TV, etc.)
 
  Total listening time (filterable by date)
 
@@ -46,7 +50,8 @@ Calculates:
 
  Artist discovery timelines and loyalty heatmaps
 
- Example Insights
+
+Example Insights
 Top 5 artists (Dec 2024–Jul 2025): Drake, Kendrick Lamar, Kanye West, The Weeknd, Westside Gunn
 
 Most played hour: 10 PM – 12 AM
@@ -69,19 +74,19 @@ New artists discovered: Tyla, Amaarae, Larry June
 
 Most loyal artist: Jorja Smith (streamed every year)
 
- How to Use This
- Clone the Repository
+⚙️ How to Use This
+Clone the Repository
 bash
 Copy
 Edit
 git clone https://github.com/elvert19/spoti_stats.git
 cd spoti_stats/spotify_cleaning
-🎧 Get Your Spotify Data
+Get Your Spotify Data
 Download your Spotify data from Spotify Takeout
 
 Extract the .zip and move the .json files into the data/ folder
 
- Run the Analysis
+Run the Analysis
 Using Jupyter Notebook:
 
 bash
@@ -94,29 +99,29 @@ bash
 Copy
 Edit
 python analysis.py
-Convert notebook to script manually (if needed):
+Convert notebook to script manually (optional):
 
 bash
 Copy
 Edit
 jupyter nbconvert --to script analysis.ipynb
 📦 Requirements
-Install dependencies using:
+Install all dependencies:
 
 bash
 Copy
 Edit
 pip install -r requirements.txt
-Or manually:
+Or just:
 
 bash
 Copy
 Edit
 pip install pandas matplotlib seaborn
 💡 Ideas for Customization
-Add an upload_your_zip.py script for easier uploading
+Add an upload_your_zip.py script for easier uploads
 
-Add command-line options like start/end date filtering
+Add command-line options like start/end date filters
 
 Auto-save graphs into the output/ folder
 
@@ -124,9 +129,15 @@ Export top artists/tracks into a summary.csv
 
 Build a "Wrapped-style" summary for quick insights
 
-🤝 Contributions Welcome
-Feel free to tweak this repo, improve the analysis, or add your own ideas! Highly recommended if you want a deeper look into your Spotify habits.
+🤝 Contributions  are Welcome
+Feel free to tweak this repo, improve the analysis, or add your own ideas!
+Highly recommended if you enjoy data s through your Spotify history.
 
-If you want to use your own Spotify data, just request it here. It usually takes a few days to be ready — the more personal your data, the better the analysis.
+ Note
+If you're using your own Spotify data, download it from the official Spotify Privacy Portal.
+It may take a few days, but it's worth it for deeper insights!
+
+
+
 
 
