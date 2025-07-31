@@ -74,55 +74,6 @@ New artists discovered: Tyla, Amaarae, Larry June
 Most loyal artist: Jorja Smith (streamed every year)
 
 
-Here's a clean, proper Markdown snippet you can copy-paste directly into your README.md to show how to clone, install requirements, and run the project.
-
-It will render nicely on GitHub with the black background and a copy button.
-
-
-## 🚀 How to Run
-
-```bash
-🚀 How to Run
-📁 Clone the Repository
-```bash
-Copy
-Edit
-git clone https://github.com/elvert19/spoti_stats.git
-cd spoti_stats/spotify_cleaning
-📦 Install Requirements
-```bash
-Copy
-Edit
-pip install -r requirements.txt
-Or manually:
-
-```bash
-Copy
-Edit
-pip install pandas matplotlib seaborn numpy jupyter
-🎧 Add Your Spotify Data
-Go to Spotify Takeout
-
-Download and unzip your data
-
-Move all the Streaming_History*.json files into the data/ folder
-
-📊 Run the Notebook
-```bash
-Copy
-Edit
-jupyter notebook analysis.ipynb
-Or run as a script:
-
-```bash
-Copy
-Edit
-python analysis.py
- Convert Notebook to Script (Optional)
-```bash
-Copy
-Edit
-jupyter nbconvert --to script analysis.ipyn
 
 
 
@@ -144,6 +95,14 @@ Highly recommended if you enjoy data insights through your Spotify history.
 🔐 Note
 If you're using your own Spotify data, download it from the official Spotify Privacy Portal.
 It will take like a day oe 2 max , but it's worth it if  you prefer to have a personalized stats
+
+
+
+
+## 🚀 How to Run
+
+```bash
+python3 smart.py
 
 
 
