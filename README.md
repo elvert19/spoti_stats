@@ -99,10 +99,6 @@ It will take like a day oe 2 max , but it's worth it if  you prefer to have a pe
 
 
 
-## 🚀 How to Run
-
-```bash
-python3 smart.py
 
 
 
