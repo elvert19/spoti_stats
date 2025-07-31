@@ -92,7 +92,7 @@ Highly recommended if you enjoy data insights through your Spotify history.
 
 🔐 Note
 If you're using your own Spotify data, download it from the official Spotify Privacy Portal.
-It will take like a day oe 2 max , but it's worth it you prefer to have a personalized stats
+It will take like a day oe 2 max , but it's worth it if  you prefer to have a personalized stats
 
 
 
