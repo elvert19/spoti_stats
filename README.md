@@ -79,6 +79,51 @@ Here's a clean, proper Markdown snippet you can copy-paste directly into your RE
 It will render nicely on GitHub with the black background and a copy button.
 
 
+## 🚀 How to Run
+
+```bash
+🚀 How to Run
+📁 Clone the Repository
+```bash
+Copy
+Edit
+git clone https://github.com/elvert19/spoti_stats.git
+cd spoti_stats/spotify_cleaning
+📦 Install Requirements
+```bash
+Copy
+Edit
+pip install -r requirements.txt
+Or manually:
+
+```bash
+Copy
+Edit
+pip install pandas matplotlib seaborn numpy jupyter
+🎧 Add Your Spotify Data
+Go to Spotify Takeout
+
+Download and unzip your data
+
+Move all the Streaming_History*.json files into the data/ folder
+
+📊 Run the Notebook
+```bash
+Copy
+Edit
+jupyter notebook analysis.ipynb
+Or run as a script:
+
+```bash
+Copy
+Edit
+python analysis.py
+ Convert Notebook to Script (Optional)
+```bash
+Copy
+Edit
+jupyter nbconvert --to script analysis.ipyn
+
 
 
 💡 Ideas for Customization
