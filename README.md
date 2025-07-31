@@ -74,49 +74,17 @@ New artists discovered: Tyla, Amaarae, Larry June
 Most loyal artist: Jorja Smith (streamed every year)
 
 ⚙️ How to Use This
-Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/elvert19/spoti_stats.git
-cd spoti_stats/spotify_cleaning
-Get Your Spotify Data
-Download your Spotify data from Spotify Takeout
+<pre> ```bash git clone https://github.com/elvert19/spoti_stats.git cd spoti_stats/spotify_cleaning ``` </pre>
 
-Extract the .zip and move the .json files into the data/ folder
 
-Run the Analysis
-Using Jupyter Notebook:
-
-bash
-Copy
-Edit
-jupyter notebook analysis.ipynb
-Or directly via Python script:
-
-bash
-Copy
-Edit
-python analysis.py
-Convert notebook to script manually (optional):
-
-bash
-Copy
-Edit
 jupyter nbconvert --to script analysis.ipynb
-📦 Requirements
-Install all dependencies:
+# 📦 Requirements
 
-bash
-Copy
-Edit
+Install dependencies:
+
+```bash
 pip install -r requirements.txt
-Or just:
 
-bash
-Copy
-Edit
-pip install pandas matplotlib seaborn
 💡 Ideas for Customization
 Add an upload_your_zip.py script for easier uploads
 
