@@ -5,7 +5,7 @@ Basically what the real Wrapped doesn’t show you
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```bash
 spotify_cleaning/
@@ -34,23 +34,22 @@ platform, content_type
 
 Calculates:
 
-🔁 Most played track
+ Most played track
 
-🎤 Most played artist
+ Most played artist
+ Listening trends (hour/month)
 
-🕒 Listening trends (hour/month)
+ Audio vs Video breakdown
 
-🎷 Audio vs Video breakdown
+ Platform usage (Windows, iOS, Smart TV, etc.)
 
-🖥️ Platform usage (Windows, iOS, Smart TV, etc.)
+Total listening time (filterable by date)
 
-⏳ Total listening time (filterable by date)
+Yearly artist trends
 
-📈 Yearly artist trends
+ Artist discovery timelines and loyalty heatmaps
 
-🔥 Artist discovery timelines and loyalty heatmaps
-
-📊 Example Insights
+ Example Insights
 Top 5 artists (Dec 2024–Jul 2025): Drake, Kendrick Lamar, Kanye West, The Weeknd, Westside Gunn
 
 Most played hour: 10 PM – 12 AM
@@ -77,7 +76,7 @@ Most loyal artist: Jorja Smith (streamed every year)
 
 
 
-💡 Ideas for Customization
+ Ideas for Customization
 Add an upload_your_zip.py script for easier uploads
 
 Add command-line options like start/end date filters
@@ -92,7 +91,7 @@ Build a "Wrapped-style" summary for quick insights
 Feel free to tweak this repo, improve the analysis, or add your own ideas!
 Highly recommended if you enjoy data insights through your Spotify history.
 
-🔐 Note
+ Note
 If you're using your own Spotify data, download it from the official Spotify Privacy Portal.
 It will take like a day oe 2 max , but it's worth it if  you prefer to have a personalized stats
 
