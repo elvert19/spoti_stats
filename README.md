@@ -39,7 +39,6 @@ Platform Analysis: Breakdown of listening time across devices (iOS vs. Desktop v
 
 Artist Loyalty: Calculated distinct "discovery dates" for artists to track long-term fandom.
 
-(Note: Add a screenshot of one of your graphs here, e.g., ![Listening Trends](path/to/image.png))
 
 # Installation & Usage
 Clone the repository:
