@@ -1,5 +1,7 @@
-🎵 Spotify Streaming Data Pipeline & Analysis
-A data engineering and analysis project that transforms raw JSON streaming history from Spotify into structured insights. This tool provides a granular look at listening habits, surpassing the limitations of the standard annual "Spotify Wrapped."
+# 🎵 Spotify Streaming Data Pipeline & Analysis
+
+
+A data engineering and analysis project that transforms raw JSON streaming history from Spotify into structured insights. This tool provides a comprehensive look at listening habits,   and giving more than the limitations of the standard annual "Spotify Wrapped."
 
 # Project Overview
 This project implements an ETL (Extract, Transform, Load) pipeline to process personal Spotify data. It parses complex nested JSON files, cleans and normalizes the data using Pandas, and generates visualizations using Matplotlib.
@@ -26,6 +28,8 @@ spotify_cleaning/
 │   └── ...
 └── output/
     └── cleaned_spotify_streaming_data.csv
+```
+
 # 📊 Insights & Visualizations
 The analysis uncovers patterns not available in the standard Spotify app:
 
@@ -46,15 +50,18 @@ git clone https://github.com/elvert19/spoti_stats.git
 cd spoti_stats
 Install dependencies:
 
-Bash
+```Bash
+
 
 pip install -r requirements.txt
-Run the analysis script:
+Run the analysis script: python src/spotify.py
 
-Bash
+```
 
-python src/spotify.py
- Technologies Used
+
+
+# Technologies Used
+
 Python 3.x
 
 Pandas (Data manipulation & aggregation)
