@@ -15,16 +15,17 @@ Interactive Querying: CLI-based search tool to retrieve statistics for specific 
 Visualization: Generates "Loyalty Heatmaps," hourly listening trends, and platform usage breakdowns.
 
 # File Structure
-Plaintext
-
-├── data/                   # Raw JSON and Processed CSV files
-├── notebooks/
-│   └── analysis.ipynb      # Jupyter Notebook for EDA and visualization
-├── src/
-│   └── spotify.py          # Main script for data processing and querying
-├── requirements.txt        # Python dependencies
-└── README.md               # Project documentation
-
+```bash
+spotify_cleaning/
+├── analysis.ipynb         # Main notebook for analysis
+├── analysis.py            # Script version of the notebook
+├── requirements.txt       # Python dependencies
+├── README.md              # This file
+├── data/                  # Your extracted JSON files go here
+│   └── Streaming_History_Audio_2021-2023_0.json
+│   └── ...
+└── output/
+    └── cleaned_spotify_streaming_data.csv
 # 📊 Insights & Visualizations
 The analysis uncovers patterns not available in the standard Spotify app:
 
