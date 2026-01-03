@@ -1,104 +1,66 @@
- 🎵 Spotify Listening History Analysis
+🎵 Spotify Streaming Data Pipeline & Analysis
+A data engineering and analysis project that transforms raw JSON streaming history from Spotify into structured insights. This tool provides a granular look at listening habits, surpassing the limitations of the standard annual "Spotify Wrapped."
 
-Analyze your Spotify data to reveal your most played songs, artists, platforms, time trends, and more.  
-Basically what the real Wrapped doesn’t show you 
+# Project Overview
+This project implements an ETL (Extract, Transform, Load) pipeline to process personal Spotify data. It parses complex nested JSON files, cleans and normalizes the data using Pandas, and generates visualizations using Matplotlib.
 
----
+Key Features:
 
-## Project Structure
+Data Parsing: Converts raw Spotify JSON exports into structured CSV format.
 
-```bash
-spotify_cleaning/
-├── analysis.ipynb         # Main notebook for analysis
-├── analysis.py            # Script version of the notebook
-├── requirements.txt       # Python dependencies
-├── README.md              # This file
-├── data/                  # Your extracted JSON files go here
-│   └── Streaming_History_Audio_2021-2023_0.json
-│   └── ...
-└── output/
-    └── cleaned_spotify_streaming_data.csv
+Data Cleaning: Handles timestamp conversion, missing values, and platform categorization.
 
-🔍 What the Code Does
-Loads and cleans your Spotify streaming history (.json)
+Interactive Querying: CLI-based search tool to retrieve statistics for specific songs (Play count, First-played date).
 
-Combines audio & video data
+Visualization: Generates "Loyalty Heatmaps," hourly listening trends, and platform usage breakdowns.
 
-Adds helpful columns like:
+# File Structure
+Plaintext
 
-minutes_played
+├── data/                   # Raw JSON and Processed CSV files
+├── notebooks/
+│   └── analysis.ipynb      # Jupyter Notebook for EDA and visualization
+├── src/
+│   └── spotify.py          # Main script for data processing and querying
+├── requirements.txt        # Python dependencies
+└── README.md               # Project documentation
 
-hour, day_of_week
+# 📊 Insights & Visualizations
+The analysis uncovers patterns not available in the standard Spotify app:
 
-platform, content_type
+Temporal Trends: Identified peak listening hours (10 PM – 12 AM) and most active months (October/November).
 
-Calculates:
+Platform Analysis: Breakdown of listening time across devices (iOS vs. Desktop vs. Smart TV).
 
- Most played track
+Artist Loyalty: Calculated distinct "discovery dates" for artists to track long-term fandom.
 
- Most played artist
- Listening trends (hour/month)
+(Note: Add a screenshot of one of your graphs here, e.g., ![Listening Trends](path/to/image.png))
 
- Audio vs Video breakdown
+# Installation & Usage
+Clone the repository:
 
- Platform usage (Windows, iOS, Smart TV, etc.)
+Bash
 
-Total listening time (filterable by date)
+git clone https://github.com/elvert19/spoti_stats.git
+cd spoti_stats
+Install dependencies:
 
-Yearly artist trends
+Bash
 
- Artist discovery timelines and loyalty heatmaps
+pip install -r requirements.txt
+Run the analysis script:
 
- Example Insights
-Top 5 artists (Dec 2024–Jul 2025): Drake, Kendrick Lamar, Kanye West, The Weeknd, Westside Gunn
+Bash
 
-Most played hour: 10 PM – 12 AM
+python src/spotify.py
+ Technologies Used
+Python 3.x
 
-Most active months:
+Pandas (Data manipulation & aggregation)
 
-October 2023 — 9038 minutes
+Matplotlib / Seaborn (Data Visualization)
 
-November 2023 — 8158 minutes
+Jupyter Notebooks
 
-June 2025 — 7292 minutes
-
-May 2025 — 7262 minutes
-
-May 2024 — 6978 minutes
-
-Longest listening streak: March 2024
-
-New artists discovered: Tyla, Amaarae, Larry June
-
-Most loyal artist: Jorja Smith (streamed every year)
-
-
-
-
-
- Ideas for Customization
-Add an upload_your_zip.py script for easier uploads
-
-Add command-line options like start/end date filters
-
-Auto-save graphs into the output/ folder
-
-Export top artists/tracks into a summary.csv
-
-Build a "Wrapped-style" summary for quick insights
-
-🤝 Contributions  are deffo Welcome
-Feel free to tweak this repo, improve the analysis, or add your own ideas!
-Highly recommended if you enjoy data insights through your Spotify history.
-
- Note
-If you're using your own Spotify data, download it from the official Spotify Privacy Portal.
-It will take like a day oe 2 max , but it's worth it if  you prefer to have a personalized stats
-
-
-
-
-
-
-
-
+🤝 Contributing
+Contributions are welcome! If you have ideas for new metrics or clearer visualizations, feel free to open a pull request.
